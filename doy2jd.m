@@ -6,4 +6,5 @@ function jd = doy2jd(year,doy)
 %add a comment
     jd1 = ymd2jd(year,1,1);
     jd = jd1 + doy -1;
+    fprintf('hello world!\n');
 end
