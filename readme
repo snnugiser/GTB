@@ -1,0 +1,8 @@
+GPS TEC ToolBox in Matlab
+
+
+GwToDoy.m:GPS week to doy
+doy2jd.m:
+jd2ymd.m
+ymd2doy.m
+ymd2jd.m
