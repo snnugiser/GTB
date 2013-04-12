@@ -9,6 +9,7 @@ function [] = cp_file(file_of_files,target)
 %f  
 %f2
 %则将该目录下f* f2*文件拷贝至target目录
+%%
 if exist(target,'dir') == 0
     ok = input('there is no dir named %s,will you want to mkdir %s(yes or no)?','s');
     if strcmp(ok,'yes')
